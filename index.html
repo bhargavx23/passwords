@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Password Generator</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style2.css ">
+        <link rel="shortcut icon" href="./title-icon-2.png" type="image/x-icon">
+    </head>
+    <body>
+        <div class="cont-1">
+            <video src="./3129671-uhd_3840_2160_30fps.mp4" loop muted autoplay ></video>
+
+            <div class="subcont-1">
+
+                <div class="heading"><p class="p1">Password Generator</p>
+                    <img src="./lock-2.png" alt=" lock icon">
+                </div>
+                <div class="inputfield">
+                 
+                    <input type="number" id="passwordlengthinput"
+                        placeholder="Enter length of password">
+                </div>
+
+                <div class="checking">
+                    <p class="p3">what kind of characters do you want to include
+                        in your
+                        password</p>
+                    <div class="checkitems">
+                        <input type="checkbox" id="lowercasedchars">
+                        <label for="lowercasedchars">Lowercase</label><br>
+
+                        <input type="checkbox" id="uppercasedchars">
+                        <label for="uppercasedchars">uppercase</label><br>
+
+                        <input type="checkbox" id="nums">
+                        <label for="nums">Numbers</label><br>
+
+                        <input type="checkbox" id="symbols">
+                        <label for="symblos">Symbols</label>
+                    </div>
+                </div>
+
+                <div class="result">
+                    <p id="result">Generated password will be displayed here</p>
+                </div>
+
+                <div class="btns">
+                    <button type="submit" id="generatebutton">Generate</button>
+                  
+                    <button id="copybtn" type="submit">Copy<img id="copyicon" src="./content_copy_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"></button>
+
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
