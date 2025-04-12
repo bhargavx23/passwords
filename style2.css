@@ -1,0 +1,141 @@
+@media screen and (max-width:700px){
+
+    .cont-1{
+        background-size: cover;
+        object-fit: fill;
+        background-position: center;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+    .subcont-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: transparent;
+        height: 100%;
+        backdrop-filter: blur(9px);
+        padding: 5px;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+        /*border-radius: 50px;*/
+        box-shadow: 0px 0px 40px ;
+
+    }
+    .p1{
+        
+        font-size: 27px;
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .heading>img{
+        height: 30px;
+        margin-left: 9px;
+    }
+    .inputfield{
+        border: 2px solid rgba(252, 252, 252, 0.151);
+        height: 10vh;
+        border-radius: 20px;
+        width: 90%;
+        padding: 5px;
+        display: flex;
+        justify-self: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+    input[type='number']{
+        padding: 0;
+        margin: 0;
+        border: none;
+        width: 280px;
+        margin-top: 16px;
+        color:white;
+        background: transparent;
+        outline: none;
+        font-size: 20px;
+        border-bottom: 2px solid white;
+        animation: spred 3s ease forwards;
+    }
+    input[type=number]::placeholder{
+        animation: none;
+        color: white;
+        font-size: 15px;
+    
+    }
+    @keyframes spred{
+        from{
+            width: 0;
+        }
+        to{
+            width:250px;
+        }
+    }
+    
+    .p2{
+        font-weight: 600;
+        color:black;
+        font-size: 20px;
+        width: 100%;
+        padding-left: 10px;
+        
+    }
+    .checking{
+        padding: 5px;
+    }
+    .p3{
+        color: rgb(248, 246, 246);  
+        font-weight: 600;
+        font-size: 20px;
+        width: 100%;
+        padding-left: 10px;
+       
+       
+    }
+    .result{
+        width: 95%;
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: none;
+        padding: 5px;
+        height: 50px;
+        margin-bottom: 50px;
+    }
+    .checkitems{
+         color: rgb(27, 201, 214);  
+         font-weight: 500; 
+    }
+    
+    .btns{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 10px;
+        padding: 10px 10px;
+    }
+
+    #copybtn{
+        padding: 10px 20px;
+        border-radius:20px ;
+    }
+
+    .result p{
+        font-size: 15px;
+        width: 100%;
+        color: rgba(255, 255, 255, 0.61);
+        text-align: center;
+        text-wrap: wrap;
+        white-space: nowrap;
+        
+    }
+    
+}
